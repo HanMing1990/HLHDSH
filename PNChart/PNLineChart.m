@@ -1063,8 +1063,8 @@
         //textLayer.fontSize = [chartData.pointLabelFont pointSize];
     }
     textLayer.fontSize = 10;//文字大小
-    CGFloat textHeight = textLayer.fontSize*1.5;//文本框高度
-    CGFloat textWidth = width*18;//文本框宽度
+    CGFloat textHeight = textLayer.fontSize*1.1;//文本框高度
+    CGFloat textWidth = width*10;//文本框宽度
     CGFloat textStartPosY;
     
     textStartPosY = pointCenter.y - textLayer.fontSize;
